@@ -1,4 +1,4 @@
-# Powerapi Sonar Plugin 
+# greenci-sonar-plugin
 
 This project is a sonar plugin made to display the energy spent by your project with an history. The plugin can allow you to detect an increase in energy consumption of your project and to be able to correct quickly.
 
@@ -11,6 +11,7 @@ This project is a sonar plugin made to display the energy spent by your project 
 ## REQUIREMENTS
 
 You must install SonarQube : https://www.sonarqube.org/
+This plugin work only with SonarQube 6.2 version or more.
 
 Scan your project with maven and the plugin **[powerapi maven plugin](https://github.com/adrien1251/powerapiMavenPlugin)** 
 
