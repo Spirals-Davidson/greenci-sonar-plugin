@@ -1,6 +1,3 @@
-
-# EN
-
 # Powerapi Sonar Plugin 
 
 This project is a sonar plugin made to display the energy spent by your project with an history. The plugin can allow you to detect an increase in energy consumption of your project and to be able to correct quickly.
@@ -13,32 +10,30 @@ This project is a sonar plugin made to display the energy spent by your project 
 
 ## REQUIREMENTS
 
-You must install SonarQube : 
+You must install SonarQube : https://www.sonarqube.org/
 
-https://www.sonarqube.org/
+Scan your project with maven and the plugin **[powerapi maven plugin](https://github.com/adrien1251/powerapiMavenPlugin)** 
 
 ## Installation
 
-- Clone the repository of this Sonar plugin
+- Clone the repository of this Sonar plugin then `mvn clean install` and get the .jar in target repo
+                                      OR
+- Download the jar in release. 
 
-First of all, you have to scan your project with maven and the plugin **[powerapi maven plugin](https://github.com/adrien1251/powerapiMavenPlugin)** 
+- Put the .jar in your SonarQue folder, into /extensions/plugins . 
 
-Here are the steps to follow : 
+- Then you can start the Sonar server and go to your web explorer, consult the powerapi stat page
 
-  -Take the .jar file of the SonarPlugin project, and put it in your SonarQue folder, into /extensions/plugins . 
-  
-  -Then you can start the Sonar server and go to your web explorer, consult the powerapi stat page
+## Usage 
 
-# Usage
+Scan your project one times with mvn sonar:sonar, then you can saw your project into sonar. 
+To see the powerapi stat page, you need to scan your project with [powerapi maven plugin](https://github.com/adrien1251/powerapiMavenPlugin). 
 
-
-
-
-# Context
+## Context
 
 This project was developed in the framework of a collaboration between Romain Rouvoy and Aurélien Bourdon from the INRIA Spirals team and Davidson SI Nord, to participate in the writing of the thesis of the apprentice researcher Chakib Belgaid.
 
-# Authors
+## Authors
 
 Adrien Deblock / Vincent Leclercq.
 This project served as a mission to complete our end-of-study internship at Davidson Consulting.
