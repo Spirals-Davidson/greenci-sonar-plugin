@@ -5,25 +5,30 @@ This project is a sonar plugin made to display the energy spent by your project 
 # What does it do
 
 1. Displays the total energy of all the tests in your project.
+![Total view](resources/img/pluginContent.png)
 2. Displays the total energy of each test class, as well as each test method.
+![Total view](resources/img/byClass.png)
+![Total view](resources/img/byTest.png)
 3. You can filter between each build / test of your project.
+![Total view](resources/img/Filter.png)
+
+===============================================================================
 
 ## REQUIREMENTS
 
 You must install SonarQube : https://www.sonarqube.org/
 This plugin work only with SonarQube 6.2 version or more.
 
-Scan your project with maven and the plugin **[powerapi maven plugin](https://github.com/adrien1251/powerapiMavenPlugin)** 
+Install and scan your project with maven and the plugin **[powerapi maven plugin](https://github.com/adrien1251/powerapiMavenPlugin)** 
 
 ## Installation
 
-- Clone the repository of this Sonar plugin then `mvn clean install` and get the .jar in target repo
-                                      OR
-- Download the jar in release. 
+- Clone the repository of this Sonar plugin then `mvn clean install` and get the .jar in target repo OR Download the jar in [release](https://github.com/Spirals-Davidson/greenci-sonar-plugin/releases). 
 
-- Put the .jar in your SonarQue folder, into /extensions/plugins . 
+- Put the .jar in your SonarQue folder, into /extensions/plugins. 
 
-- Then you can start the Sonar server and go to your web explorer, consult the powerapi stat page
+- Then you can start the Sonar server and go to your web explorer, consult the powerapi stat page. 
+![How to go in stat page](resources/img/howTo.png)
 
 ## Usage 
 
